@@ -1,0 +1,159 @@
+body {
+    background-image: url(/cakeshopee.jpg);
+   font-family: sans-serif;
+    font-weight: 70;
+    font-size: 18px;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 640px;
+    margin: auto;
+    
+  }
+  .main-content { background-color:whitesmoke; }
+   
+   #intro-img {
+    background-image: url(/overwhelming-choco-chip-pastries-A-past0208choc.jpg) ;
+    background-position: center;
+    background-size: cover;
+    min-height: 425px;
+    min-width: 425px;
+  } 
+  .text-white {color: black;}
+  .header
+   {
+     
+    
+     display:inline-block;
+     border-color:black;
+     background-color: blue;
+     border-style: double;
+    }
+  
+ 
+   .page-header-container { text-align: center; }
+
+   .page-header { 
+      display:-moz-stack;
+    vertical-align:super; 
+    margin-top: 20px;
+    margin-bottom: 35px;
+    font-size: 2.1rem;
+    font-weight: 400;
+  }  
+   .section-header {
+    color: brown; 
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+  }
+
+  table {
+    width: 100%;
+    border-spacing: 2px;
+  }
+       
+   td {
+    text-align: center;
+    padding: 5px;
+  }
+   
+  
+   .text-left{ text-align: left;}
+     
+   .item-name
+  {
+      padding: 2px;
+      color:darkred;
+      text-align: center;
+      display:-block;
+      margin-top: 10px;
+      margin-bottom: 20px;
+  }
+ 
+   th {
+    color: #333333;
+    font-weight: 400;
+    font-size :1.4rem;
+    padding-left: 5px;
+    padding-right: 15px;
+  }
+  tr:nth-child(even) { background-color: #e5e8ed; }
+ 
+   tr.tr-header {
+    height: 50px;
+  } 
+  .section {
+    padding: 20px;
+    
+  }
+  
+   .section-small {
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+    word-spacing: 5px;
+  }
+ 
+   p {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+ 
+  .mb-0 { margin-bottom: 0; }
+  img { max-width: 100%; }
+  figure { margin: 0; }
+  figcaption { text-align: center; } 
+
+   figcaption span {
+   
+    color: #757575;
+    font-size: 18px;
+  }
+   
+  .item-name { 
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+    
+  .special-items {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  
+  .special-item {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+     
+ hr {
+    width: 60%;
+    border: 2px solid red;
+  } 
+ 
+  .contact-link {
+    color: blue;
+    font-weight: 600;
+    
+  } 
+  a { transition: all 0.2s ease; }
+   .contact-link:hover { color: #f50808; }
+  
+  .footer-text {
+    font-size: 0.9rem;
+    margin: 30px;
+    text-align: center;
+  }
+ 
+  .footer-link {
+    color:olive;
+    text-decoration: none;
+  }
+  .footer-link:hover { color: red; }
+    
